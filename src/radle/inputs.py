@@ -37,4 +37,3 @@ def content_array(paths, prompt):
             "url": f"data:{mime};base64,{base64.b64encode(raw).decode('ascii')}"
         }})
     return content
-

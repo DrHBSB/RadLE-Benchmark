@@ -32,4 +32,3 @@ def parse_response(raw_text):
     if isinstance(score, bool) or not isinstance(score, int) or score not in range(5):
         return diagnosis, None, "invalid_likert"
     return diagnosis, score, "ok_recovered" if recovered else "ok"
-

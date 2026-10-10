@@ -17,4 +17,3 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 radle = ["resources/*.txt", "resources/*.json"]
-

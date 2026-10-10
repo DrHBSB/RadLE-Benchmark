@@ -6,4 +6,3 @@ __pycache__/
 *.csv
 !data/radle_preprint_50/cases.csv
 .env
-

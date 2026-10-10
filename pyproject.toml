@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "radle-benchmark"
 version = "0.1.0"
-description = "Private staging of the RadLE v2 inference companion"
+description = "RadLE v2 inference companion development starter"
 requires-python = ">=3.10"
 dependencies = ["openai==2.26.0", "Pillow==12.1.1"]
 
